@@ -1,0 +1,5 @@
+.build/
+.swiftpm/
+NoteBuddy.app/
+*.xcodeproj/xcuserdata/
+.DS_Store
