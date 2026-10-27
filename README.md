@@ -19,7 +19,7 @@ A tiny macOS menu bar helper that sits beside any notes app. Press **⌘⇧Space
 ./build-app.sh
 ```
 
-This produces `NoteBuddy.app` in the project folder. It is ad-hoc signed and has no dock icon (`LSUIElement`). Move it to `/Applications` if you like, then open it.
+The script compiles with `swiftc` directly (no SwiftPM needed) and produces `NoteBuddy.app` in the project folder. It is ad-hoc signed and has no dock icon (`LSUIElement`). Move it to `/Applications` if you like, then open it.
 
 You can also open `Package.swift` in Xcode to read or edit the code. For real use, run the `.app` built by the script. When Xcode runs the bare executable, macOS gives the Accessibility permission to Xcode instead of NoteBuddy.
 
