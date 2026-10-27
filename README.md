@@ -7,6 +7,8 @@ A tiny macOS menu bar helper that sits beside any notes app. Press **⌘⇧Space
 - Password fields are skipped entirely.
 - Note contents and the API key are never logged.
 
+> **On iPad?** See [`iPad/README.md`](iPad/README.md) for the iPad version, which reads your Apple Pencil handwriting from Notes and Notability.
+
 ## Requirements
 
 - macOS 13 Ventura or later
